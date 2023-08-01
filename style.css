@@ -40,6 +40,12 @@ SELECTORS
 */
 
 /* Element Selectors */
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
 h2{
     color: green;
 }
@@ -48,6 +54,8 @@ h2{
 
 h3{
     background-color: rgb(121, 145, 224);
+    font-weight: lighter;
+
 }
 /* 
 R= 00-ff
@@ -70,3 +78,11 @@ button{
     color: red;
 }
 
+.para1{
+    text-align: center;
+}
+
+.link1{
+    text-decoration: none;
+    font-weight : lighter;
+}
