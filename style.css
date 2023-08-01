@@ -1,0 +1,72 @@
+/* 
+3 ways to add CSS in html 
+1. Inline CSS
+<h1 style="color: red; font-size: 20px;">This is an h1 heading</h1>
+
+2. Internal CSS
+<head>
+  <style>
+    h1 {
+      color: red;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+3. External CSS
+Add below code in html 
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+Then create .css file
+    h1 {
+      color: red;
+      font-size: 20px;
+    }
+*/
+
+/*
+
+SELECTORS
+1. Universal Selector(Apply on Whole Document)
+    *{}
+2. Element Selector
+    h1 { }
+3. Id Selector
+    #Id { }
+4. Class Selector
+    .Class { }
+
+*/
+
+/* Element Selectors */
+h2{
+    color: green;
+}
+
+/* class */
+
+h3{
+    background-color: rgb(121, 145, 224);
+}
+/* 
+R= 00-ff
+G= 00-ff
+B= 00-ff
+*/
+h4{
+    background-color: #7991e0 ;
+}
+button{
+    color: rgb(0, 39, 43);
+    background-color: pink;
+
+}
+
+#box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+
