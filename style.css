@@ -65,10 +65,10 @@ h3{
 
 }
 /* 
-R= 00-ff
-G= 00-ff
-B= 00-ff
-A= 0-1
+R= 00-ff Red
+G= 00-ff Green
+B= 00-ff Blue
+A= 0-1 Opticity
 */
 h4{
     background-color: #7991e0 ;
@@ -180,7 +180,7 @@ button{
 
 #divblock{
     background-color: pink;
-    display: inline;
+    display: inline;/*Only take space required by the element. (no margin/ padding) */
 }
 #buttoninline{
     background-color: pink;
@@ -192,9 +192,9 @@ button{
     background-color: red;
     height: 100px;
     width: 100px;
-    display: inline-block;
-    marg
-
+    display: inline-block;/*Only take space required by the element with margin and padding*/
+    background-image: url(img/Sanskar.png);
+    background-size: contain;
 }
 #box2{
     background-color: blue;
@@ -217,6 +217,111 @@ button{
     width: 100px;
     text-align: center;
     display: inline-block;
-
+    background-image: url(img/Sanskar.png);
+    background-size: cover;
 }
+
+#box5{
+    background-color:turquoise;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    position: static;
+}
+#box6{
+    background-color:cornflowerblue;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+#box7{
+    background-color:#f08804;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    top: 40px;
+}
+#box8{
+    background-color:blueviolet;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+}
+#box9{
+    background-color:blueviolet;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+#flexcontainer{
+    height: 500px;
+    width: 800px;
+    border: 5px solid black;
+    text-align: center;
+    display:flex;
+}
+#headinglast{
+    text-align: center;
+}
+#Dibba1{
+        height: 100px;
+        width: 100px;
+        border: 2px solid red ;
+        background-color:chocolate;
+        
+}
+#Dibba2{
+        height: 100px;
+        width: 100px;
+        border: 2px solid red ;
+        background-color:rgb(51, 87, 232);
+}
+#Dibba3{
+        height: 100px;
+        width: 100px;
+        border: 2px solid red ;
+        background-color:violet;
+}
+#Dibba4{
+        height: 100px;
+        width: 100px;
+        border: 2px solid red ;
+        background-color:rgb(0, 255, 162);
+}
+#Dibba5{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red ;
+    background-color:rgb(81, 255, 0);
+}
+
+
+
+/*
+units for heights 
+px
+"x"em - x times of parent value/size 
+*/
 /* ids and class names does not contain spaces */
+/* it is adviced to use background-size: cover; */
