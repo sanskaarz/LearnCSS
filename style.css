@@ -125,6 +125,16 @@ button{
     font-size: 20px;
     line-height: 10px;/* space between lines */
     font-weight : lighter;
+    /* padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 50px; */
+    padding: 10px 0px 10px 50px; /* Padding Shorthand= top | right | bottom | left -> clockwise*/
+    margin-right:00px;
+    margin-left:100px;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin: 1px 2px 3px 4px;/* Margin Shorthand top | right | bottom | left -> clockwise */
 }
 
 .link1{
@@ -133,5 +143,16 @@ button{
 }
 #doubleid1.three{ color: blue; }
 .three{ color: red; }
+
+#navbar{
+   height: 60px; 
+   background-color: black;
+
+}
+#navbarlink{
+    color: orange;
+
+}
+#navbar
 
 /* ids and class names does not contain spaces */
