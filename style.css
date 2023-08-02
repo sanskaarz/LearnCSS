@@ -47,7 +47,6 @@ SELECTORS
 .heading1{
     text-align: center;
     text-decoration: underline;
-
 }
 
 h2{
@@ -59,12 +58,17 @@ h2{
 h3{
     background-color: rgb(121, 145, 224);
     font-weight: lighter;
+}
+#heading3{
+    background-color: rgba(121, 145, 224, 0.25);
+    font-weight: lighter;
 
 }
 /* 
 R= 00-ff
 G= 00-ff
 B= 00-ff
+A= 0-1
 */
 h4{
     background-color: #7991e0 ;
@@ -125,15 +129,15 @@ button{
     font-size: 20px;
     line-height: 10px;/* space between lines */
     font-weight : lighter;
-    /* padding-top: 10px;
+    /* padding-top: 10px;USED TO ADD SPACE b\w BORDER and CONTENT
     padding-right: 0px;
     padding-bottom: 10px;
     padding-left: 50px; */
     padding: 10px 0px 10px 50px; /* Padding Shorthand= top | right | bottom | left -> clockwise*/
-    margin-right:00px;
+    /* margin-right:00px; USED TO ADD SPACE b\w CONTENT AND CONTENT
     margin-left:100px;
     margin-top:100px;
-    margin-bottom:100px;
+    margin-bottom:100px; */
     margin: 1px 2px 3px 4px;/* Margin Shorthand top | right | bottom | left -> clockwise */
 }
 
@@ -147,12 +151,72 @@ button{
 #navbar{
    height: 60px; 
    background-color: black;
+   
 
 }
+
 #navbarlink{
+    margin-right: 200px;
     color: orange;
+}
+#navbaraccount{
+    margin-right: 200px;
+    color: white;
+}
+#navbarmycart{
+    margin-right: 200px;
+    color: white;
 
 }
-#navbar
+#navbarcontactus{
+    margin-right:200px;
+    color: white;
+}
 
+#navbarbutton{
+    color: white;
+    background-color: #f08804;
+}
+
+#divblock{
+    background-color: pink;
+    display: inline;
+}
+#buttoninline{
+    background-color: pink;
+    display: block;
+
+}
+
+#box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    marg
+
+}
+#box2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    visibility:hidden;/* document is hidden but space is reserved for the element.*/
+    display: inline-block;
+}
+#box3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display:none;/* document is hidden and no space is reserved for the element.*/
+}
+
+#box4{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+
+}
 /* ids and class names does not contain spaces */
