@@ -108,8 +108,8 @@ button{
     height: 200px;
 }
 #para3{
-    height: 300px;
-    width: 250px;
+    height: 50vh;/*Responsive height*/
+    width: 60vw;/*Responsive width*/
     background-color: pink;
     border-width: 10px;
     border-style:ridge;
