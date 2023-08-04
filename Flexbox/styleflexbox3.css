@@ -2,8 +2,9 @@
 body{
     text-align: center;
 }
+
 div{
-    height: 14px;
+    height: 20px;
     width: 100px;
     border: 2.5px solid black;
 }
@@ -16,6 +17,11 @@ div{
     flex-direction: row;
     flex-wrap:wrap-reverse;
     align-items: center;
+    align-content:space-evenly;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #Dibba1{
     background-color:chocolate;
