@@ -16,8 +16,8 @@ div{
     justify-content: space-evenly;/*to align elements w.r.t. flexcontainer(responsively)*/
     flex-direction: row;
     flex-wrap:wrap;/* Arrange the elements w.r.t. to viewport(responsively)*/
-    align-items: center;/*align the items of flexbox w.r.t. flexcontainer*/
-    align-content:center;/* align the items of flexbox w.r.t. the content of items of flexbox container*/
+    align-items: center;/* align the items of flexbox w.r.t. flexcontainer---HIGH PRIORITY*/
+    /* align-content:center;align the items of flexbox w.r.t. the content of items of flexbox container */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,11 +31,12 @@ div{
 #Dibba2{
     background-color:rgb(255, 107, 1);
     align-self: flex-end;/*used to arrange specfic items of flexbox---HIGHEST PRIORITY*/
-    /* flex-grow: 8; */
+    /* flex-grow:5; *//*works when wrap is removed* */
 }
 
 #Dibba3{
     background-color:violet;
+    /* flex-shrink: 5; *//*works when wrap is removed* */
 }
 
 #Dibba4{
