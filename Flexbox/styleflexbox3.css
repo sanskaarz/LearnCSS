@@ -1,3 +1,4 @@
+/*Sometimes flex properties didn't work so we have so we have to change units of sizes from "px" to "vh/vw" or into "%"*/
 body{
     text-align: center;
 }
@@ -7,15 +8,16 @@ div{
     border: 2.5px solid black;
 }
 
+
 #flexcontainer{
-    height: 140px;
-    width: 200px;
+    height: 50vh;
+    width: 70%;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap:wrap;
-
+    align-items: center;
 }
-
 #Dibba1{
     background-color:chocolate;
 }

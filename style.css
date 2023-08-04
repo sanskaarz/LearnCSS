@@ -107,6 +107,7 @@ button{
     text-transform: lowercase;
     height: 200px;
 }
+
 #para3{
     height: 50vh;/*Responsive height*/
     width: 60vw;/*Responsive width*/
@@ -114,6 +115,7 @@ button{
     border-width: 10px;
     border-style:ridge;
 }
+
 .boxmodel{
     height: 100px;/*height of the box */
     width: 140px;/*width of the box */
@@ -159,15 +161,18 @@ button{
     margin-right: 200px;
     color: orange;
 }
+
 #navbaraccount{
     margin-right: 200px;
     color: white;
 }
+
 #navbarmycart{
     margin-right: 200px;
     color: white;
 
 }
+
 #navbarcontactus{
     margin-right:200px;
     color: white;
@@ -182,10 +187,10 @@ button{
     background-color: pink;
     display: inline;/*Only take space required by the element. (no margin/ padding) */
 }
+
 #buttoninline{
     background-color: pink;
     display: block;
-
 }
 
 #box1{
@@ -196,19 +201,21 @@ button{
     background-image: url(img/Sanskar.png);
     background-size: contain;
 }
+
 #box2{
     background-color: blue;
     height: 100px;
     width: 100px;
-    visibility:hidden;/* document is hidden but space is reserved for the element.*/
-    display: inline-block;
+    display:none;/* document is hidden and no space is reserved for the element.*/
 }
+
 #box3{
     background-color: green;
     height: 100px;
     width: 100px;
-    text-align: center;
-    display:none;/* document is hidden and no space is reserved for the element.*/
+    visibility:hidden;/* document is hidden but space is reserved for the element.*/
+    display: inline-block;
+
 }
 
 #box4{
@@ -218,7 +225,7 @@ button{
     text-align: center;
     display: inline-block;
     background-image: url(img/Sanskar.png);
-    background-size: cover;
+    background-size:cover;
 }
 
 #box5{
@@ -228,7 +235,7 @@ button{
     border: 3px solid black;
     text-align: center;
     display: inline-block;
-    position: static;
+    position: static;/*Default,koi farak ni padta*/
 }
 #box6{
     background-color:cornflowerblue;
@@ -237,8 +244,9 @@ button{
     border: 3px solid black;
     text-align: center;
     display: inline-block;
-    position: relative;
-    top: 10px;
+    position: relative;/*change w.r.t it's own current position */
+    bottom: 60px;
+
 }
 #box7{
     background-color:#f08804;
@@ -247,9 +255,13 @@ button{
     border: 3px solid black;
     text-align: center;
     display: inline-block;
-    position:absolute;
-    top: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:fixed;/* element removed for the workflow(sequence),change w.r.t it's ancestors/parents/previous.MOVE on scrolling  */
+
 }
+/* Absolute depends on it's all parents and sometimes browser...DOGLA BTC*/
 #box8{
     background-color:blueviolet;
     height: 100px;
@@ -257,9 +269,10 @@ button{
     border: 3px solid black;
     text-align: center;
     display: inline-block;
-    position: fixed;
+    position: fixed;/*changes are applied w.r.t viewport/browser,removed from the workflow,not move on scrolling*/
     bottom: 0px;
 }
+
 #box9{
     background-color:blueviolet;
     height: 100px;
@@ -268,10 +281,8 @@ button{
     text-align: center;
     display: inline-block;
     position: sticky;
-    top: 0px;
+    /* Will be fixed as soon as it is seen */
 }
-
-
 
 
 #flexcontainer{
@@ -281,15 +292,16 @@ button{
     text-align: center;
     display:flex;
 }
+
 #headinglast{
     text-align: center;
 }
+
 #Dibba1{
         height: 100px;
         width: 100px;
         border: 2px solid red ;
         background-color:chocolate;
-        
 }
 #Dibba2{
         height: 100px;
@@ -319,9 +331,18 @@ button{
 
 
 /*
-units for heights 
-px
-"x"em - x times of parent value/size 
+units of sizes
+
+1.px
+2.em - x times of parent value/size
+3.vh/vw
+4.%
+
 */
+/* viewport is:
+
+Width: The width of the viewport is the width of the browser window.
+Height: The height of the viewport is the height of the browser window. */
+
 /* ids and class names does not contain spaces */
 /* it is adviced to use background-size: cover; */
