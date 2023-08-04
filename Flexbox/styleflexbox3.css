@@ -18,7 +18,6 @@ div{
     flex-wrap:wrap;/**/
     /* align-content:center;align the content of items of flexbox */
 
-    align-items: center;/*align the items of flexbox*/
     position: absolute;
     top: 50%;
     left: 50%;
