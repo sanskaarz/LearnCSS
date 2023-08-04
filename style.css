@@ -329,7 +329,6 @@ button{
 }
 
 
-
 /*
 units of sizes
 
@@ -339,10 +338,18 @@ units of sizes
 4.%
 
 */
+
 /* viewport is:
 
 Width: The width of the viewport is the width of the browser window.
 Height: The height of the viewport is the height of the browser window. */
 
+/* z-index 
+z-index: auto; (Default=0)
+z-index: 0;
+z-index: -1;
+
+*/
+
 /* ids and class names does not contain spaces */
-/* it is adviced to use background-size: cover; */
+/* it is adviced to use background-size: cover; 
