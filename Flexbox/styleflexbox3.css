@@ -15,9 +15,10 @@ div{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap:wrap-reverse;
-    align-items: center;
-    align-content:space-evenly;
+    flex-wrap:wrap;/**/
+    /* align-content:center;align the content of items of flexbox */
+
+    align-items: center;/*align the items of flexbox*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,11 +26,12 @@ div{
 }
 
 #Dibba1{
-    background-color:chocolate;
+    background-color:rgb(51, 87, 232);
 }
 
 #Dibba2{
-    background-color:rgb(51, 87, 232);
+    background-color:rgb(255, 107, 1);
+    align-self: flex-end;/*used to arrange specfic items of flexbox---HIGHEST PRIORITY*/
 }
 
 #Dibba3{
