@@ -8,14 +8,13 @@ div{
     border: 2.5px solid black;
 }
 
-
 #flexcontainer{
     height: 50vh;
     width: 70%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
     align-items: center;
 }
 #Dibba1{
