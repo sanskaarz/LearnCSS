@@ -1,27 +1,47 @@
 /* CSS Pseudo-classes 
 https://www.w3schools.com/css/css_pseudo_classes.asp
-
-a:link {
-  color: #FF0000;
-}
 */
-a:link {
-    color: #FF0000;
-  }
-/* visited link */
-a:visited {
-    color: #00FF00;
-  }
-  
-  /* mouse over link */
-  a:hover {
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: orange;
+    /* transition-property: all;
+    transition-duration: 3s;
+    overflow:hidden;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    transition: all 3s ease-in 1s;/*Transition Shorthand*/
+}
+
+div:hover {
+    background-color: red;
     color: #FF00FF;
-  }
+    font-size: 50px;
+}
   
   /* selected link */
-  a:active {
+div:active {
+    background-color: aqua;
     color: #0000FF;
-  }
+}
 
+
+
+/* Transform
+
+Change size-Big/Small
+
+transform: scale(2);
+transform: scaleY(0.5);
+
+Move element
+
+transform: translate(20px);
+transform: translate(20px, 50px);
+
+transform: skew (30deg);Theda Medha
+
+*/
 
 
