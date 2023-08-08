@@ -17,7 +17,7 @@
 /* Box 1*/
 
 .nav-logo{
-    height: 50px;
+    height: 65px;
     width: 113px;
 }
 .logo{
@@ -52,13 +52,17 @@
 .search-bar{
     display: flex;
     height: 40px;
-    width: 559.5px;
+    width: 900px;
     background-color: transparent;
     justify-content: space-evenly;
 
 
 }
+.search-bar:hover{
+    border-radius: 6px;
+    border: 2px solid orange;
 
+}
 .search-select{
     width: 45px;
     height: 40px;
@@ -97,9 +101,18 @@
 .flag{
     display: flex;
 }
+.flagsize{
+    height: 16.2px;
+    width: 21.6px;
+    margin: 0px 2px 0px 0px;
+    align-items: center;
+
+}
 /* Box 5 */
 
 .signin{
+    height: 30px;
+    align-items: center;
 }
 
 .signin-txt1{
@@ -107,4 +120,20 @@
 }
 .signin-txt2{
     font-size: 14px;
+    font-weight: 750;
+}
+
+/* Box 6 */
+
+.cart{
+
+}
+
+.cart i{
+    font-size: 30px;
+    
+}
+.cart{
+    font-size: 14px;
+    font-weight: 750;
 }
