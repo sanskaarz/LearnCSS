@@ -1,3 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: orange;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation: name duration timing-function delay iteration-count direction fill-mode;/*Animation Shorthand*/
+}
+
 @keyframes myanimation {
-    
+    0%{background-color: blue;}
+    50%{background-color: black;}
+    60%{background-color: green}
+    100%{background-color: blue;}
 }
