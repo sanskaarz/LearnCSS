@@ -194,6 +194,7 @@ margin-right: 5px;
 
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e3e6e6;
 }
@@ -220,6 +221,13 @@ margin-right: 5px;
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-repeat: no-repeat;
+
+}
+
+.box-img:hover{
+    transform: scale(1.5);
+    overflow: hidden;
 }
 
 .box-content a{
