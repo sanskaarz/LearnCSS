@@ -167,21 +167,62 @@ margin-right: 5px;
 .hero-section{
     background-image: url(/Project/images/hero_image.jpg);
     background-size: cover;
-    height: 600px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 
 }
 
 .hero-message{
     height: 40px;
+    background-color: #f5f6f6;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     color: black;
     font-size: 14px;
+    width: 90%;
+    margin-bottom: 35px;
 }
 
 .hero-message a{
     color: #007185;
     text-decoration: none;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box h2{
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-content a{
+    text-decoration: none;
+    color: #007185;
 }
