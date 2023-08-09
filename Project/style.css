@@ -8,7 +8,7 @@
 }
 .navbar{
     height: 60px;
-    background-color: #131921;
+    background-color: #0f1111;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -126,14 +126,21 @@
 /* Box 6 */
 
 .cart{
-
+    font-size: 14px;
+    font-weight: 750;
 }
 
 .cart i{
     font-size: 30px;
     
 }
-.cart{
-    font-size: 14px;
-    font-weight: 750;
+
+
+.panel{
+    height: 39px;
+    background-color: #232f3e;
+}
+
+.panel-all{
+    align-items: center;
 }
