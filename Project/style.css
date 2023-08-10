@@ -54,9 +54,7 @@
     height: 40px;
     width: 900px;
     background-color: transparent;
-    justify-content: space-evenly;
-
-
+    justify-content: space-evenly; 
 }
 .search-bar:hover{
     border-radius: 6px;
