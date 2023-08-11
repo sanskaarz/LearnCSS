@@ -356,7 +356,22 @@ z-index: 0;
 z-index: -1;
 
 */
+
+
+
+/* Sizes */
+/*
+
+%- it totally depends upon its immediate parent
+vh-viewport height
+vw-viewport width
+
+*/
+
+
+
 /* ID must start with a letter (a-z or A-Z).*/
 /* ID can contain alphabets numbers - . _ : */
 /* ids and class names does not contain spaces */
 /* it is adviced to use background-size: cover; 
+/* Default size is 16px */
