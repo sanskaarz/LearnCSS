@@ -181,7 +181,6 @@ margin-right: 5px;
 .hero-section{
     background-image: url(images/hero_image.jpg);
     background-size: cover;
-    background-position: center;
     width: 100%;
     height: 60vh;
     display: flex;
@@ -192,23 +191,23 @@ margin-right: 5px;
 
 @media (max-width: 1000px) {
     .hero-section{
-        background-size: contain;
+        background-size: cover;
         overflow: hidden;
-        height: 410px;
+        height: 10rem;
     }
 }
 
 .hero-message{
-    height: 40px;
+    height: 3vw;
     background-color: #f5f6f6;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     color: black;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     width: 90%;
-    margin-bottom: 35px;
+    margin-bottom: 2.2vw;
 }
 
 @media (max-width: 1000px) {
@@ -268,7 +267,8 @@ margin-right: 5px;
     margin-bottom: 20px;
 }
 .box-img img{
-    height: 300px;
+    max-width: 100%;
+    height: auto;
     background-size: cover;
     width: 313.28px;
     background-repeat: no-repeat;
@@ -307,8 +307,7 @@ margin-right: 5px;
         font-size: 5.4vw;
     }
     .box-img img{
-        max-width: 100%;
-        height: auto;
+
     }
 
 }
