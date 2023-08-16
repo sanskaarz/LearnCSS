@@ -153,7 +153,6 @@
     
 }
 
-
 .panel{
     height: 2.7vw;
     background-color: #232f3e;
@@ -192,6 +191,7 @@ margin-right: 0.2vw;
     align-items: flex-end;
     justify-content: center;
     background-repeat: no-repeat;
+    animation: slidein 100s;
 }
 
 @media (max-width: 1000px) {
@@ -249,6 +249,45 @@ margin-right: 0.2vw;
     margin-top: 1vw;
     overflow: hidden;
 }
+
+div.box1{
+    transition: all 0.81s ease-in 0.35s;
+}
+div.box2{
+    transition: all 0.81s ease-in 0.35s;
+}
+div.box3{
+    transition: all 0.81s ease-in 0.35s;
+}
+div.box4{
+    transition: all 0.81s ease-in 0.35s;
+}
+
+div.box5{
+    transition: all 0.81s ease-in 0.8s;
+}
+div.box6{
+    transition: all 0.81s ease-in 0.8s;
+}
+div.box7{
+    transition: all 0.81s ease-in 0.8s;
+}
+div.box8{
+    transition: all 0.81s ease-in 0.8s;
+}
+div.box9{
+    transition: all 0.81s ease-in 1.2s;
+}
+div.box10{
+    transition: all 0.81s ease-in 1.2s;
+}
+div.box11{
+    transition: all 0.81s ease-in 1.2s;
+}
+div.box12{
+    transition: all 0.81s ease-in 1.2s;
+}
+
 
 @media (max-width:370px) {
     .box{
@@ -337,6 +376,10 @@ footer{
     padding: 15px 0;
     font-size: 0.9vw;
 }
+div.footer-panel1{
+    transition:all 1.6s ease-in 1.2s;
+}
+
 
 .footer-panel2{
     background-color: #222f3d;
@@ -344,6 +387,11 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
+
+div.footer-panel2{
+    transition:all 1s ease-in 1.4s;
+}
+
 .footer-list p{
     font-size: 1.2vw;
     font-weight: 750;
