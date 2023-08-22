@@ -1,6 +1,8 @@
 /* CSS Pseudo-classes 
 https://www.w3schools.com/css/css_pseudo_classes.asp
 */
+/* https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/ */
+
 div{
     height: 100px;
     width: 100px;
@@ -24,6 +26,12 @@ div:hover {
 div:active {
     background-color: aqua;
     color: #0000FF;
+}
+
+div:hover {
+    background-color: red;
+    color: #FF00FF;
+    font-size: 50px;
 }
 
 
